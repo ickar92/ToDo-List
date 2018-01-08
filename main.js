@@ -5,17 +5,8 @@ $(document).ready(function() {
 		$('input').val(' ');
 	});
 
-	// $('a').click(function() {
-	// 	$(this).prev().remove();
-	// });
-
-	// $('a').click(function () {
-	//     $(this).closest().remove();
-	// });
-
 	$('#list').on('click', 'a', function (e) {
 	    e.preventDefault();
 	    $(this).parent().remove();
 	});
 });
-
